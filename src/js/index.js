@@ -4,9 +4,10 @@ import ReactDOM from "react-dom";
 
 // include your styles into the webpack bundle
 import "../styles/index.css";
+import Traffic from "./component/traffic.jsx";
 
 //import your own components
-import Home from "./component/home.jsx";
+import Home from "./component/traffic.jsx";
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<Traffic />, document.querySelector("#app"));
